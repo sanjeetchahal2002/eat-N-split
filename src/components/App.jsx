@@ -65,6 +65,7 @@ function App() {
         <ExpenseForm
           selectedFriend={selectedFriend}
           updateFriendExpense={updateFriendExpense}
+          key={selectedFriend.id}
         />
       )}
     </div>
